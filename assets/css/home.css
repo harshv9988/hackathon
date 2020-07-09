@@ -65,7 +65,7 @@
   .welcome #carouselExampleCaptions {
     top: 0px !important;
     width: 100% !important;
-    height: 400px !important;
+    height: 600px !important;
     margin: auto; }
     .welcome #carouselExampleCaptions #color-change {
       color: white; }
@@ -79,6 +79,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center; }
+    .welcome #flexbox .card {
+      box-shadow: 3px 5px 10px black; }
     .welcome #flexbox .card-name {
       font-size: large; }
   .welcome #sign {

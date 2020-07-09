@@ -111,7 +111,7 @@
         // position: absolute !important;
         top:0px !important;
         width: 100% !important;
-        height: 400px !important;
+        height: 600px !important;
         margin: auto;
 
         #color-change{
@@ -130,6 +130,10 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+
+        .card{
+            box-shadow: 3px 5px 10px black;
+        }
 
         .card-name{
             font-size: large;
