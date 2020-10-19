@@ -26,7 +26,7 @@ module.exports.profile = async function (req, res) {
             }).populate('likes');
             let users = await User.find({});
 
-        let friends = await User.find({ friendships: req.params.id })
+        let friends = await User.find({ friendships: req.params.id });
 
 
         return res.render('user', {
